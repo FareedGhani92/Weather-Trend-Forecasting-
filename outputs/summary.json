@@ -1,0 +1,47 @@
+{
+  "overview": {
+    "rows": 149879,
+    "cols": 53,
+    "n_countries": 211,
+    "n_locations": 268,
+    "time_min": "2024-05-16 01:45:00",
+    "time_max": "2026-06-27 19:00:00",
+    "total_missing": 0,
+    "duplicate_rows": 0
+  },
+  "model_metrics": {
+    "Naive (lag-1)": {
+      "MAE": 0.1902,
+      "RMSE": 0.2415,
+      "MAPE": 0.8296,
+      "R2": 0.7673
+    },
+    "Ensemble": {
+      "MAE": 0.212,
+      "RMSE": 0.2493,
+      "MAPE": 0.9279,
+      "R2": 0.752
+    },
+    "SARIMAX": {
+      "MAE": 0.1929,
+      "RMSE": 0.2653,
+      "MAPE": 0.8361,
+      "R2": 0.7194
+    },
+    "Random Forest": {
+      "MAE": 0.2345,
+      "RMSE": 0.2737,
+      "MAPE": 1.0307,
+      "R2": 0.7013
+    },
+    "Linear Regression": {
+      "MAE": 0.2373,
+      "RMSE": 0.2807,
+      "MAPE": 1.0417,
+      "R2": 0.6856
+    }
+  },
+  "best_model": "Naive (lag-1)",
+  "forecast_horizon_days": 30,
+  "forecast_mean_temp": 23.8
+}

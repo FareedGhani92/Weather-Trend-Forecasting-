@@ -1,0 +1,11 @@
+# Streamlit theme — clean shadcn/Tailwind-style light theme (blue + white)
+[theme]
+base = "light"
+primaryColor = "#2563eb"            # blue-600 (primary accent)
+backgroundColor = "#f8fafc"         # slate-50 page background
+secondaryBackgroundColor = "#ffffff" # white cards / sidebar / widgets
+textColor = "#0f172a"               # slate-900 text
+font = "sans serif"
+
+[server]
+headless = true

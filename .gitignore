@@ -1,0 +1,23 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+env/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Kaggle credentials - never commit
+kaggle.json
+.kaggle/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Keep the dataset out of git if it is large; uncomment if needed
+# data/*.csv
+
+# Allow generated outputs to be tracked (figures, metrics) so reviewers can see results
